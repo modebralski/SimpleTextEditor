@@ -149,8 +149,9 @@
             this.wytnijToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.wytnijToolStripMenuItem.Name = "wytnijToolStripMenuItem";
             this.wytnijToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.X)));
-            this.wytnijToolStripMenuItem.Size = new System.Drawing.Size(166, 22);
+            this.wytnijToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.wytnijToolStripMenuItem.Text = "Wyt&nij";
+            this.wytnijToolStripMenuItem.Click += new System.EventHandler(this.wytnijToolStripMenuItem_Click);
             // 
             // copyToolStripMenuItem
             // 

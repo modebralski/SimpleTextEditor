@@ -52,5 +52,10 @@ namespace SimpleTextEditor
         {
             richTextBox1.Redo();
         }
+
+        private void wytnijToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            richTextBox1.Cut();
+        }
     }
 }
