@@ -33,11 +33,7 @@
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.noweToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.otwórzToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripSeparator = new System.Windows.Forms.ToolStripSeparator();
             this.zapiszToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.zapiszAsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.zakończToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.edytujToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cofnijToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -68,11 +64,7 @@
             this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.noweToolStripMenuItem,
             this.otwórzToolStripMenuItem,
-            this.toolStripSeparator,
             this.zapiszToolStripMenuItem,
-            this.zapiszAsToolStripMenuItem,
-            this.toolStripSeparator1,
-            this.toolStripSeparator2,
             this.zakończToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
             this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
@@ -98,11 +90,6 @@
             this.otwórzToolStripMenuItem.Text = "&Otwórz";
             this.otwórzToolStripMenuItem.Click += new System.EventHandler(this.otwórzToolStripMenuItem_Click);
             // 
-            // toolStripSeparator
-            // 
-            this.toolStripSeparator.Name = "toolStripSeparator";
-            this.toolStripSeparator.Size = new System.Drawing.Size(177, 6);
-            // 
             // zapiszToolStripMenuItem
             // 
             this.zapiszToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("zapiszToolStripMenuItem.Image")));
@@ -112,22 +99,6 @@
             this.zapiszToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.zapiszToolStripMenuItem.Text = "&Zapisz";
             this.zapiszToolStripMenuItem.Click += new System.EventHandler(this.zapiszToolStripMenuItem_Click);
-            // 
-            // zapiszAsToolStripMenuItem
-            // 
-            this.zapiszAsToolStripMenuItem.Name = "zapiszAsToolStripMenuItem";
-            this.zapiszAsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.zapiszAsToolStripMenuItem.Text = "Zapisz &As";
-            // 
-            // toolStripSeparator1
-            // 
-            this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(177, 6);
-            // 
-            // toolStripSeparator2
-            // 
-            this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(177, 6);
             // 
             // zakończToolStripMenuItem
             // 
@@ -242,11 +213,7 @@
         private ToolStripMenuItem fileToolStripMenuItem;
         private ToolStripMenuItem noweToolStripMenuItem;
         private ToolStripMenuItem otwórzToolStripMenuItem;
-        private ToolStripSeparator toolStripSeparator;
         private ToolStripMenuItem zapiszToolStripMenuItem;
-        private ToolStripMenuItem zapiszAsToolStripMenuItem;
-        private ToolStripSeparator toolStripSeparator1;
-        private ToolStripSeparator toolStripSeparator2;
         private ToolStripMenuItem zakończToolStripMenuItem;
         private ToolStripMenuItem edytujToolStripMenuItem;
         private ToolStripMenuItem cofnijToolStripMenuItem;

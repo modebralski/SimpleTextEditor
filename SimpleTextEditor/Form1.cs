@@ -42,5 +42,6 @@ namespace SimpleTextEditor
         {
             Application.Exit();
         }
+
     }
 }
