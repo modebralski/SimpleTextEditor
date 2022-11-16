@@ -62,5 +62,10 @@ namespace SimpleTextEditor
         {
             richTextBox1.Copy();
         }
+
+        private void pasteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            richTextBox1.Paste();
+        }
     }
 }
