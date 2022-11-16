@@ -11,5 +11,10 @@ namespace SimpleTextEditor
         {
             richTextBox1.Clear();
         }
+
+        private void zakoñczToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
