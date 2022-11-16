@@ -181,8 +181,9 @@
             // wybierzwszystkoToolStripMenuItem
             // 
             this.wybierzwszystkoToolStripMenuItem.Name = "wybierzwszystkoToolStripMenuItem";
-            this.wybierzwszystkoToolStripMenuItem.Size = new System.Drawing.Size(166, 22);
+            this.wybierzwszystkoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.wybierzwszystkoToolStripMenuItem.Text = "Wybier&z wszystko";
+            this.wybierzwszystkoToolStripMenuItem.Click += new System.EventHandler(this.wybierzwszystkoToolStripMenuItem_Click);
             // 
             // richTextBox1
             // 

@@ -67,5 +67,10 @@ namespace SimpleTextEditor
         {
             richTextBox1.Paste();
         }
+
+        private void wybierzwszystkoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            richTextBox1.SelectAll();
+        }
     }
 }
