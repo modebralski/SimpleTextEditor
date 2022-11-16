@@ -25,6 +25,19 @@ namespace SimpleTextEditor
 
         }
 
+        private void zapiszToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            SaveFileDialog saveFileDialog = new SaveFileDialog();
+            saveFileDialog.Filter = "Text Files (.txt) | *.txt";
+            saveFileDialog.Title = "Save file...";
+            if (saveFileDialog.ShowDialog() == DialogResult.OK)
+            {
+                System.IO.StreamWriter sw = new System.IO.StreamWriter(saveFileDialog.FileName);
+                sw.Write(richTextBox1.Text);
+                sw.Close();
+            }
+        }
+
         private void zakoñczToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Application.Exit();
