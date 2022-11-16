@@ -6,5 +6,10 @@ namespace SimpleTextEditor
         {
             InitializeComponent();
         }
+
+        private void noweToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
