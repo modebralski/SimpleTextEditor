@@ -9,7 +9,7 @@ namespace SimpleTextEditor
 
         private void noweToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            richTextBox1.Clear();
         }
     }
 }
