@@ -43,5 +43,9 @@ namespace SimpleTextEditor
             Application.Exit();
         }
 
+        private void cofnijToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            richTextBox1.Undo();
+        }
     }
 }

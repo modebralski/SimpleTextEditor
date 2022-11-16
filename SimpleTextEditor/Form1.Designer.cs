@@ -126,8 +126,9 @@
             // 
             this.cofnijToolStripMenuItem.Name = "cofnijToolStripMenuItem";
             this.cofnijToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Z)));
-            this.cofnijToolStripMenuItem.Size = new System.Drawing.Size(166, 22);
+            this.cofnijToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.cofnijToolStripMenuItem.Text = "&Cofnij";
+            this.cofnijToolStripMenuItem.Click += new System.EventHandler(this.cofnijToolStripMenuItem_Click);
             // 
             // redoToolStripMenuItem
             // 
