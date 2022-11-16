@@ -47,5 +47,10 @@ namespace SimpleTextEditor
         {
             richTextBox1.Undo();
         }
+
+        private void redoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            richTextBox1.Redo();
+        }
     }
 }
